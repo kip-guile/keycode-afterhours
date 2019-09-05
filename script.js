@@ -21,3 +21,12 @@ function keyLog(event) {
 function addHeight() {
     popupBar.classList.toggle('height')
 };
+
+window.onload = function () {
+    const mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        opening.innerHTML = "Not yet available on mobile.<br> I'm working on it!"
+    } else {
+        console.log('Hey :-)')
+    }
+}
