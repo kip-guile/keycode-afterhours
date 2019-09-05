@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 86vh;
     width: 100vw;
     color: white;
     display: flex;
@@ -21,4 +21,35 @@ h1 {
 
 h2 {
     font-size: 8rem;
+}
+
+p {
+    width: 65vw;
+    margin-top: 40vh;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.menu-button {
+    height: 7vh;
+    cursor: pointer;
+    width: 32px;
+    margin: 8px 0 0 8px;
+}
+
+.menu-button:hover {
+    opacity: 0.8
+}
+
+.menu-button div {
+    background: white;
+    height: 4px;
+    width: 32px;
+    margin-bottom: 5px;
+}
+
+.popup-bar {
+    width: 100vw;
+    height: 6vh;
+    background: white;
 }
