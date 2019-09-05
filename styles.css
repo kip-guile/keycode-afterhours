@@ -2,9 +2,23 @@ body {
     background: #114357;
     background: -webkit-linear-gradient(to right, #F29492, #114357);
     background: linear-gradient(to right, #F29492, #114357);
+    font-family: 'Comfortaa', cursive;
 }
 
 .container {
     height: 100vh;
     width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 16vh;
+    font-size: 32rem;
+}
+
+h2 {
+    font-size: 8rem;
 }
