@@ -1,14 +1,11 @@
 const numberHeader = document.querySelector('h1');
 const textHeader = document.querySelector('h2');
 const openingText = document.querySelector('p');
-
 const menuButton = document.querySelector('.menu-button');
 const popupBar = document.querySelector('.popup-bar');
 
-
 window.addEventListener('keydown', keyLog);
 menuButton.addEventListener('click', addHeight);
-
 
 function keyLog(event) {
 
@@ -24,4 +21,3 @@ function keyLog(event) {
 function addHeight() {
     popupBar.classList.toggle('height')
 };
-
