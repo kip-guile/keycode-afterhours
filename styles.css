@@ -51,8 +51,10 @@ p {
 .popup-bar {
     width: 100vw;
     background: white;
+    transition: height 0.5s ease-in-out;
 }
 
 .height {
     height: 6vh;
+    transition: height 0.5s ease-in-out;
 }
