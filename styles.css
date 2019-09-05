@@ -50,6 +50,9 @@ p {
 
 .popup-bar {
     width: 100vw;
-    height: 6vh;
     background: white;
+}
+
+.height {
+    height: 6vh;
 }
