@@ -1,0 +1,10 @@
+body {
+    background: #114357;
+    background: -webkit-linear-gradient(to right, #F29492, #114357);
+    background: linear-gradient(to right, #F29492, #114357);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
